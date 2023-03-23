@@ -1,0 +1,21 @@
+{
+  "name": "gepetito",
+  "version": "0.0.1",
+  "description": "An unofficial REPL tool to interact with ChatGPT.",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "bin": {
+    "gepetito": "./bin/index.js"
+  },
+  "author": "Bruno Faúndez Valenzuela",
+  "license": "MIT",
+  "dependencies": {
+    "conf": "^11.0.1",
+    "openai": "^3.2.1",
+    "prompt": "^1.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
